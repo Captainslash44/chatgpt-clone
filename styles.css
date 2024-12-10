@@ -16,6 +16,10 @@ body{
     width: 15%; 
 }
 
+.sidebar-heading{
+    display: flex;
+}
+
 .chat{
     display: flex;
     flex-direction: column;
