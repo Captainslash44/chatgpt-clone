@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    height: 100%;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    height: 100%;
+    width: 15%; 
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    background-color: #424242;
+    height: 100%;
+    margin: 0;
+    width: 85%;
+}
+
+
