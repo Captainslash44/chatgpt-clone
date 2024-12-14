@@ -1,32 +1,40 @@
 body{
-    height: 100vh;
-    margin: 0;
-}
-
-.flex-container{
-    display: flex;
     height: 100%;
 }
 
-.sidebar{
+.navigation-bar{
     display: flex;
+    background-color: black;
+}
+
+h4{
+    margin-right: 27%;
+}
+
+h5{
+    margin-right: 7%;
+}
+
+.fa{
+    position: absolute;
+    right: 0;
+    margin-right: 2%;
+    margin-top: 1%;
+    color: white;
+}
+
+.nav-bar-text{
+    font-family: "Montserrat";
+    color: white;
+}
+
+.main{
+    display: flex;
+    height: 100%;
     flex-direction: column;
-    background-color: #171717;
-    height: 100%;
-    width: 15%; 
+    background-color: grey;
 }
 
-.sidebar-heading{
+.flex-container-hor{
     display: flex;
 }
-
-.chat{
-    display: flex;
-    flex-direction: column;
-    background-color: #424242;
-    height: 100%;
-    margin: 0;
-    width: 85%;
-}
-
-
