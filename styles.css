@@ -1,10 +1,12 @@
 body{
     height: 100%;
+    margin: 0;
 }
 
 .navigation-bar{
     display: flex;
     background-color: black;
+    
 }
 
 h4{
@@ -32,9 +34,47 @@ h5{
     display: flex;
     height: 100%;
     flex-direction: column;
-    background-color: grey;
+    background-color: black;
+    text-align: center;
 }
 
 .flex-container-hor{
     display: flex;
+    position: relative;
+    background-color: black;
+}
+
+.first-vid{
+    width: 100%;
+    margin-right: 2%;
+}
+
+.main-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-55%, -200%);
+    font-family: "Montserrat";
+    font-size: xx-large;
+    font-size: 270%;
+}
+
+.subtitle{
+    font-family: "Montserrat";
+    color: white;
+    text-align: left;
+    background-color: black;
+    margin: 1%;
+    margin-left: 20%;
+}
+
+.center-img{
+    border-radius: 5% ;
+    height: auto;
+    width: 25%;
+    margin: 1%;
+}
+
+.body-div{
+    margin-left: 20%;
 }
